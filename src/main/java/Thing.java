@@ -3,6 +3,8 @@ import java.util.List;
 
 public class Thing {
     private int count;
+
+    // Danger - to convert to JsonNode lists (maps, sets) cannot be null
     private List<String> names = new ArrayList<>();
 
     public int getCount() {
